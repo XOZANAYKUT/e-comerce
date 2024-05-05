@@ -22,9 +22,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),
     path("", index, name="index.html"),
-    path("login/", login, name="login.html"),
-    path("register/", register, name="register.html"),
-    path("profile/", profile, name="Profile.html"),
+    path("login/", Login, name="login.html"),
+    path("register/", Register, name="register.html"),
+    path("profile/", Profile, name="Profile.html"),
    
 
 ]
