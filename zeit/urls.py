@@ -21,12 +21,10 @@ from django.conf.urls.i18n import i18n_patterns
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),
-    path("", index, name="index.html"),
-    path("login/", Login, name="login.html"),
-    path("register/", Register, name="register.html"),
-    path("profile/", Profile, name="Profile.html"),
-   
-
+    path("", index, name="index"),
+    path("login/", login, name="login"),
+    path("register/", register, name="register"),
+    path("profile/", profile, name="profile"),
 ]
 
 urlpatterns = [
