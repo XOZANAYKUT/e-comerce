@@ -6,6 +6,8 @@ from django.http import HttpResponseRedirect
 from django.urls.base import resolve, reverse
 from django.urls.exceptions import Resolver404
 from django.utils import translation
+from django.contrib.auth.models import User
+from django.contrib import messages
 
 # Create your views here.
 def index(request):
@@ -18,7 +20,29 @@ def profile(request):
 
 
 def login(request):
-     return render(request, "user/login.html")
+    if request.method == "POST":
+        email = request.POST.get("email")
+        password = request.POST.get("password")
+
+        user_exists = User.objects.filter(email=email).exists()
+        if user_exists:
+            # User exists, check the password
+            user = User.objects.get(email=email)
+            if user.check_password(password):
+                # User passed password verification, log in
+                login(request, user)
+                return redirect("index.html")
+            else:
+                # Password is incorrect, return error message
+                return render(request, "user/login.html", {"error_message": "Password is incorrect"})
+        else:
+            # User not found, return error message
+            return render(request, "user/login.html", {"error_message": "User not found"})
+    else:
+        # GET request, show the login page
+        return render(request, "user/login.html")
+
+
 
 
 def register(request):
