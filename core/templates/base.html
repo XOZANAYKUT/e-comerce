@@ -93,6 +93,18 @@
       </symbol>
     </svg>  
 {% include 'partials/_header.html'%}
+
+{% if messages %}
+<div class="alert alert-danger" role="alert">
+  <ul class="messages" style="position: absolute; top: 100px; left: 0;">
+      {% for message in messages %}
+      <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>
+          {{ message }}
+      </li>
+      {% endfor %}
+  </ul>
+</div>
+{% endif %}
 {% block content %}
 {% endblock content %}
 {% include 'partials/_footer.html'%}
