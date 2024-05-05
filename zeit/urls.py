@@ -22,8 +22,14 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),
     path("", index, name="index.html"),
+    path("login/", login, name="login.html"),
+    path("register/", register, name="register.html"),
+    path("profile/", profile, name="Profile.html"),
+   
+
 ]
 
 urlpatterns = [
     *i18n_patterns(*urlpatterns, prefix_default_language=False),
+    path("set_language/<str:language>", set_language, name="set-language"),
     ]

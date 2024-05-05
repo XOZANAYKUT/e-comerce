@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-05 15:39+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: core/templates/index.html:15
+msgid "Ihre Produkte sind großartig."
+msgstr "Your products are great."
+
+#: core/templates/index.html:16 core/templates/index.html:33
+#: core/templates/index.html:145 core/templates/index.html:162
+msgid "Produkt kaufen"
+msgstr "Buy product"
+
+#: core/templates/index.html:32
+msgid "Technologie-Hack, den Sie nicht bekommen"
+msgstr "Technology hack you won't understand"
+
+#: core/templates/index.html:68
+msgid "Kostenlose Lieferung"
+msgstr "Free delivery"
+
+#: core/templates/index.html:81
+msgid "Qualitätsgarantie"
+msgstr "Quality guarantee"
+
+#: core/templates/index.html:94
+msgid "Tägliche Angebote"
+msgstr "Daily offers"
+
+#: core/templates/index.html:107
+#, fuzzy, python-format
+#| msgid "100% sichere Bezahlung"
+msgid "100%% sichere Bezahlung"
+msgstr "100% secure payment"
+
+#: core/templates/index.html:119 core/templates/index.html:248
+msgid "Mobile Produkte"
+msgstr "Mobile Products"
+
+#: core/templates/index.html:121 core/templates/index.html:250
+#: core/templates/index.html:794
+msgid "Zum Shop gehen"
+msgstr "go to Shop"
+
+#: core/templates/index.html:144
+#, fuzzy
+#| msgid "Ihre Produkte sind großartig."
+msgid "Ihre Produkte sind großartig"
+msgstr "Your products are great."
+
+#: core/templates/index.html:161 core/templates/index.html:511
+#: core/templates/index.html:947
+msgid "Technologie-Hack, den Sie nicht verstehen werden"
+msgstr "Technology hack you won't understand"
+
+#: core/templates/index.html:262 core/templates/index.html:280
+#: core/templates/index.html:298 core/templates/index.html:316
+#: core/templates/index.html:334 core/templates/index.html:369
+#: core/templates/index.html:387 core/templates/index.html:405
+#: core/templates/index.html:423 core/templates/index.html:441
+#: core/templates/index.html:717 core/templates/index.html:735
+#: core/templates/index.html:753 core/templates/index.html:771
+#: core/templates/index.html:806 core/templates/index.html:824
+#: core/templates/index.html:842 core/templates/index.html:860
+#: core/templates/index.html:878
+msgid "Zum Warenkorb hinzufügen"
+msgstr "Add to shopping basket"
+
+#: core/templates/index.html:355 core/templates/index.html:792
+msgid "Smarte Uhren"
+msgstr "Smart watches"
+
+#: core/templates/index.html:392
+msgid "Schwere Uhr"
+msgstr "Heavy clock"
+
+#: core/templates/index.html:410 core/templates/index.html:847
+msgid "Punktierte Uhr"
+msgstr "Dotted clock"
+
+#: core/templates/index.html:428 core/templates/index.html:446
+#: core/templates/index.html:865 core/templates/index.html:883
+msgid "schwarze Uhr"
+msgstr "Black watch"
+
+#: core/templates/index.html:462 core/templates/index.html:899
+#, fuzzy, python-format
+#| msgid "10%% Rabatt"
+msgid "10%% Rabatt"
+msgstr "10% discount"
+
+#: core/templates/index.html:463 core/templates/index.html:900
+msgid "Neujahrsverkauf"
+msgstr "New Year's sale"
+
+#: core/templates/index.html:464 core/templates/index.html:901
+msgid "Shop Verkauf"
+msgstr "Shop sale"
+
+#: core/templates/index.html:476 core/templates/index.html:913
+msgid "Neueste Beiträge"
+msgstr "Latest posts"
+
+#: core/templates/index.html:479 core/templates/index.html:915
+msgid "Blog lesen"
+msgstr "Read blog"
+
+#: core/templates/index.html:491
+msgid "22. Feb. 2023"
+msgstr "22. Feb. 2023"
+
+#: core/templates/index.html:492 core/templates/index.html:928
+msgid "- Gadgets"
+msgstr "- Gadgets"
+
+#: core/templates/index.html:495 core/templates/index.html:931
+msgid "Ein paar coole Gadgets im Jahr 2023"
+msgstr "A few cool gadgets in the year 2023"
+
+#: core/templates/index.html:507 core/templates/index.html:523
+msgid "feb 25, 2023"
+msgstr "feb 25, 2023"
+
+#: core/templates/index.html:508 core/templates/index.html:944
+msgid "- Technologie"
+msgstr "- Technology"
+
+#: core/templates/index.html:524
+msgid "- Kamera"
+msgstr "- Camera"
+
+#: core/templates/index.html:527 core/templates/index.html:963
+msgid "Top 10 der kleinsten Kameras der Welt"
+msgstr "Top 10 smallest cameras in the world"
+
+#: core/templates/index.html:621 core/templates/index.html:1057
+msgid "Jetzt abonnieren"
+msgstr "Subscribe now"
+
+#: core/templates/index.html:622 core/templates/index.html:1058
+msgid ""
+"Erhalten Sie die neuesten Nachrichten, Updates und Angebote direkt in Ihren "
+"Posteingang."
+msgstr "Receive the latest news, updates and offers directly in your inbox."
+
+#: core/templates/index.html:641 core/templates/index.html:1077
+msgid "Unser Insta-Shop"
+msgstr "Our Insta-Shop"
+
+#: core/templates/index.html:811
+#, fuzzy
+#| msgid "schwarze Uhr"
+msgid "Rosa Uhr"
+msgstr "Black watch"
+
+#: core/templates/index.html:927 core/templates/index.html:943
+#: core/templates/index.html:959
+msgid "feb 22, 2023"
+msgstr "feb 22, 2023"
+
+#: core/templates/index.html:960
+msgid "- kamera"
+msgstr "- camera"
+
+#: core/templates/index.html:1065
+msgid "Abonnieren"
+msgstr "Subscribe"
